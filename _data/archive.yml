@@ -1,9 +1,27 @@
-- type: dates
-  title: Dates
-  url: /dates/
-#- type: categories
-#  title: Categories
-#  url: /categories/
-- type: tags
-  title: Tags
-  url: /tags/
+# - type: dates
+#   title: Dates
+#   url: /dates/
+# #- type: categories
+# #  title: Categories
+# #  url: /categories/
+# - type: tags
+#   title: Tags
+#   url: /tags/
+
+
+
+- type: research
+  title: Research
+  url: /research/
+
+- type: news
+  title: News&Travel
+  url: /news/
+
+- type: misc
+  title: Misc
+  url: /misc/
+
+- type: cv
+  title: CV.pdf
+  url: /cv/
