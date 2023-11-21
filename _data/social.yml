@@ -1,9 +1,12 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: haolinli@mail.ustc.edu.cn
   icon: fas fa-envelope
 - title: Twitter
-  url: https://twitter.com/vszhub
+  url: https://twitter.com/HaolinLi17
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/lhl08
   icon: fab fa-github
+- title: LinkedIn
+  url: https://www.linkedin.com/in/haolin-li-8622b027b/
+  icon: fab fa-linkedin
