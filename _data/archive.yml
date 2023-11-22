@@ -8,8 +8,10 @@
 #   title: Tags
 #   url: /tags/
 
-
-
+- type: home
+  title: Home
+  url: /
+  
 - type: research
   title: Research
   url: /research/
