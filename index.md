@@ -19,12 +19,12 @@ and currently a research intern at Simon Fraser University (SFU), working with P
 <p>My research interest lies in Human-Computer Interaction (HCI), especially at solving problems from hardware side, including sensing system, accessibility, Robotics and further application in AR/VR. </p>
 <p>I am a Maths/Physics enthusiast, you can find my related coursework <a href="https://drive.google.com/file/d/199SNkcFAMPjofPt2J0walXh88xGNQx4w/view?usp=drive_link">here</a>. To change people's daily lives GREATLY with LIMITED changes to their habits is what I am pursuing. The possibility to make a prototype into real world is how I judge whether an idea is good.</p>
 <h2>Education</h2>
-<h3>University of Science and Technology of China</h3><p>2020.09 - 2024.07</p>
+<h3>University of Science and Technology of China, 2020.09 - 2024.07</h3>
 <p>B.Eng. in Computer Science and Technology</p>
 <h2>Experience</h2>
-<h3>iXLab, Simon Fraser University</h3><p>2023.07 - 2024.04</p>
+<h3>iXLab, Simon Fraser University, 2023.07 - 2024.04</h3>
 <p>Research Intern, supervised by Prof. <a href="https://www.sfu.ca/~xingdong/">Xing-Dong Yang</a></p>
-<h3>RecSys Lab, University of Science and Technology of China</h3><p>2022.06 - 2023. 06</p>
+<h3>RecSys Lab, University of Science and Technology of China, 2022.06 - 2023. 06</h3>
 <p>Research Assistant, supervised by Prof. <a href="https://faculty.ustc.edu.cn/liandefu/en/index.htm">Defu Lian</a></p>
 <h2>Honors and Awards</h2>
 <p>USTC Silver Scholarship (10%), 2022</p>
