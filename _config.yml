@@ -20,25 +20,28 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
+      value: haolinli@mail.ustc.edu.cn
+      link: mailto:haolinli@mail.ustc.edu.cn
+    - name: Email
+      value: tony79cn@gmail.com
+      link: mailto:tony79cn@gmail.com
     - name: WeChat
-      value: YourWeChatUsername
+      value: haolin1i
       link: "#"
   follow:
     - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: https://twitter.com/HaolinLi17
+      username: "@HaolinLi17"
+    # - name: Facebook
+    #   link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/haolin-li-8622b027b/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: https://github.com/lhl08
+    # - name: Dribbble
+    #   link: https://dribbble.com/YourDribbbleUsername
+    # - name: RSS
+    #   link: /feed.xml
 
 # Build settings
 markdown: kramdown
