@@ -3,11 +3,11 @@ layout: research
 title: Research
 slug: /research
 items:
-#   - title: FeelWeave: Innovating Textile-Based Tactile Feedback in Wearable Garments
-#     image:
-#       src: /assets/img/research/tactive.png
-#       alt: FeelWeave
-#     description: Embed All-textile Haptics with SMA material, Higher Reading Rate with Parallel Computing and more sensitive sensing with Machine Learning in textile sensor system for tactile response and samrt garment shape changing.
+  - title: FeelWeave: Innovating Textile-Based Tactile Feedback in Wearable Garments
+    image:
+      src: /assets/img/research/tactive.png
+      alt: FeelWeave
+    description: Embed All-textile Haptics with SMA material, Higher Reading Rate with Parallel Computing and more sensitive sensing with Machine Learning in textile sensor system for tactile response and samrt garment shape changing.
 #   - title: BLIT: Battery Less, IC less and Wireless Textile Sensing Interface
 #     image:
 #       src: /assets/img/research/BLIT.png
@@ -20,5 +20,5 @@ items:
 #     description: User Controllable Bubble filters for Recommendation System to eliminate outdated data and redundancy; Dynamic Learning process with user Interaction to reduce unfairness and bias in content recommendation. Contributor of <a href="https://github.com/lhl08/RecStudio">RecStudio</a>, a unified, highly modularized recommendation library based on PyTorch.
 ---
 
-My previous research in HCI mainly focuses on wearable textile sensing/haptics system, and I am willing to discover more in other HCI fields in the future. test
+My previous research in HCI mainly focuses on wearable textile sensing/haptics system, and I am willing to discover more in other HCI fields in the future. test test
 <br />
