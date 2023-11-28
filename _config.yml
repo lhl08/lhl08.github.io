@@ -13,8 +13,12 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
-    - name: Blog
+    # - name: Work
+    # - name: Blog
+    - name: Research
+    - name: News & Travel
+    - name: Misc
+    - name: CV.pdf
 
 footer:
   show_powered_by: true
