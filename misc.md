@@ -7,7 +7,7 @@ items:
     image:
       src: /assets/img/misc/chengdu.png
       alt: chengdu
-    description: Born in the States in 2001, I moved to <a href="https://en.wikipedia.org/wiki/Chengdu">Chengdu</a> with my parents at the age of 4, and grew up there. I am deeply fascinated by the food (especially <a href="https://en.wikipedia.org/wiki/Hot_pot">hotpot</a>) and natural landscape (like <a href="https://www.chinadiscovery.com/sichuan-tours/xiling-snow-mountain-tours.html">Xiling Snow Mountain</a> and <a href="https://en.wikipedia.org/wiki/Chengdu_Research_Base_of_Giant_Panda_Breeding">Panda bBase</a>) there.
+    description: Born in the States in 2001, I moved to <a href="https://en.wikipedia.org/wiki/Chengdu">Chengdu</a> with my parents at the age of 4, and grew up there. I am deeply fascinated by the food (especially <a href="https://en.wikipedia.org/wiki/Hot_pot">hotpot</a>) and natural landscape (like <a href="https://www.chinadiscovery.com/sichuan-tours/xiling-snow-mountain-tours.html">Xiling Snow Mountain</a> and <a href="https://en.wikipedia.org/wiki/Chengdu_Research_Base_of_Giant_Panda_Breeding">Panda Base</a>) there.
   - title: Table-Tennis Varsity Player
     image:
       src: /assets/img/misc/tabletennis.png
