@@ -1,7 +1,7 @@
 ---
-layout: news
-title: News & Travel
-slug: /news
+layout: travel
+title: Travel
+slug: /travel
 items:
   - title: News 1
     image:
