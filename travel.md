@@ -10,7 +10,7 @@ items:
     description: I demonstrated an early prototype at the UIST'23 Demo Session. I also participated in the "Future Paradigms for Sustainable Making" workshop, which inspired me a lot. For more information, please click <a href="https://twitter.com/HaolinLi17/status/1724274012371517466">here</a>.
   - title: Research Intern at Simon Fraser University, Vancouver, Jul. 2023
     image:
-      src: /assets/img/travel/uist.png
+      src: /assets/img/travel/sfu.png
       alt: sfu
     description: I have arrived in Vancouver today! I plan to stay at SFU until next April after the UIST'24 deadline. Good luck to my research at iXLab!
   # - title: News 2
