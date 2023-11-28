@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: news
 title: News & Travel
 slug: /news
 items:

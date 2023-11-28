@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: cv
 title: CV.pdf
 slug: /cv
 ---

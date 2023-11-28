@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: misc
 title: Misc
 slug: /misc
 items:
