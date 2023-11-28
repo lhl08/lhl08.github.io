@@ -16,9 +16,9 @@ header:
     # - name: Work
     # - name: Blog
     - name: Research
-    - name: News & Travel
+    - name: Travel
     - name: Misc
-    - name: CV.pdf
+    - name: CV
 
 footer:
   show_powered_by: true
