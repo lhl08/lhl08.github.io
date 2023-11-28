@@ -8,7 +8,7 @@ items:
       src: /assets/img/travel/uist.png
       alt: uist23
     description: I demonstrated an early prototype at the UIST'23 Demo Session. I also participated in the "Future Paradigms for Sustainable Making" workshop, which inspired me a lot. For more information, please click <a href="https://twitter.com/HaolinLi17/status/1724274012371517466">here</a>.
-  - title: Research Intern at Simon Fraser University, Jul. 2023
+  - title: Research Intern at Simon Fraser University, Vancouver, Jul. 2023
     image:
       src: /assets/img/travel/uist.png
       alt: sfu
