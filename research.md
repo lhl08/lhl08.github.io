@@ -12,8 +12,8 @@ items:
     image:
       src: /assets/img/research/BLIT.png
       alt: BLIT
-    description: ABC
-    # description: A textile sensing interface that eliminates the need for ICs, batteries, and connectors in textiles, using near field electromagnetic coupling for wireless power transfer and data acquisition from textile based multi sensor circuits; Skills: Circuit Analysis and Experiments in Complex Fuctions, sewing programming and manilpulation, textile-related fabrication, 3D Printing, High-Performance Curve Fitting Iteration, Thesis Composition and Review. <a href="https://drive.google.com/file/d/1VV_1cWfDzp1y3XpA_zS_pv6Ar3tqCIlm/view?usp=drive_link">Video<\a> / <a href="https://drive.google.com/file/d/1H3rm3dPR5sSbXpMQpxsNNe30bX5wwezU/view?usp=drive_link">Paper.pdf</a> / <a href="https://github.com/lhl08/BLIT_Vis">Code</a>
+    # description: ABC
+    description: A textile sensing interface that eliminates the need for ICs, batteries, and connectors in textiles, using near field electromagnetic coupling for wireless power transfer and data acquisition from textile based multi sensor circuits; with mathematical models for High-Performance Curve Fitting Iteration and Circuit Analysis in Complex Fuctions. <a href="https://drive.google.com/file/d/1VV_1cWfDzp1y3XpA_zS_pv6Ar3tqCIlm/view?usp=drive_link">Video<\a> / <a href="https://drive.google.com/file/d/1H3rm3dPR5sSbXpMQpxsNNe30bX5wwezU/view?usp=drive_link">Paper.pdf</a> / <a href="https://github.com/lhl08/BLIT_Vis">Code</a>
   - title: Human-AI Interaction Applications in Recommender Systems
     image:
       src: /assets/img/research/recsys.png
@@ -21,5 +21,5 @@ items:
     description: User Controllable Bubble filters for Recommendation System to eliminate outdated data and redundancy; Dynamic Learning process with user Interaction to reduce unfairness and bias in content recommendation. Contributor of <a href="https://github.com/lhl08/RecStudio">RecStudio</a>, a unified, highly modularized recommendation library based on PyTorch.
 ---
 
-My previous research in HCI mainly focuses on wearable textile sensing/haptics system, and I am willing to discover more in other HCI fields in the future. test test test
+My previous research in HCI mainly focuses on wearable textile sensing/haptics system, and I am willing to discover more in other HCI fields in the future.
 <br />
