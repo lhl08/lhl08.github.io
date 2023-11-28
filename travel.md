@@ -3,18 +3,14 @@ layout: travel
 title: Travel
 slug: /travel
 items:
-  - title: News 1
+  - title: UIST'23 Conference, San Francisco, Oct. 2023
     image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: News 2
-    image:
-      src: /assets/img/work/sand.png
-      alt: sand
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      src: /assets/img/travel/uist.png
+      alt: uist23
+    description: I demonstrated an early prototype at the UIST'23 Demo Session. I also participated in the "Future Paradigms for Sustainable Making" workshop, which inspired me a lot. For more information, please click <a href="https://twitter.com/HaolinLi17/status/1724274012371517466">here</a>.
+  # - title: News 2
+  #   image:
+  #     src: /assets/img/work/sand.png
+  #     alt: sand
+  #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 ---
-
-This is an example of a "News" page, displaying your work, your interests, your projects.
-<br />
-<br />
