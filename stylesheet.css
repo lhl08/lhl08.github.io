@@ -7,10 +7,15 @@
 
 body,
 p,
-a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
+a,
+div,
+span,
+em,
+b,
+strong {
+  font-family: "Space Mono", "Courier New", "Consolas", monospace;
+  font-size: 14px;
+  line-height: 1.75;
 }
 
 strong,
@@ -21,7 +26,7 @@ b {
 /* ===== Page Background & Shell ===== */
 body {
   margin: 0;
-  padding: 24px;
+  padding: 32px;
   background: #f9f5ff;
   color: #111;
 }
@@ -32,7 +37,7 @@ body {
   background: #fffbf0;
   border: 3px solid #111;
   box-shadow: 8px 8px 0 #111;
-  padding: 28px;
+  padding: 32px;
   border-radius: 14px;
   position: relative;
 }
@@ -66,7 +71,7 @@ body {
 /* ===== Links ===== */
 a {
   color: #111;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   padding: 0 2px;
   border-bottom: 2px solid #ffd54b;
@@ -86,16 +91,20 @@ a:focus {
 .hero-row {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
   border-radius: 14px;
   border: 3px solid #111;
   background: #e0f2fe;
   box-shadow: 6px 8px 0 #111;
-  padding: 24px;
+  padding: 28px;
 }
 
 .hero-text {
   flex: 1;
+}
+
+.hero-text p {
+  margin: 0 0 14px;
 }
 
 .hero-photo {
@@ -114,11 +123,12 @@ a:focus {
 
 /* ===== Name Badge ===== */
 .name {
-  margin: 0 0 16px;
-  font-size: 32px;
-  font-weight: 900;
+  margin: 0 0 20px;
+  font-family: "Space Mono", "Courier New", monospace;
+  font-size: 30px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   background: #111;
   color: #fffbf0;
   padding: 8px 16px;
@@ -131,16 +141,16 @@ a:focus {
 /* ===== Social Links ===== */
 .social-links {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .social-links a {
   display: inline-block;
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: 999px;
   border: 2px solid #111;
   border-bottom: 2px solid #111;
@@ -159,14 +169,15 @@ a:focus {
 
 /* ===== Research Section ===== */
 .research-section {
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin-top: 36px;
+  margin-bottom: 20px;
 }
 
 h2 {
   margin: 0;
-  font-weight: 800;
-  font-size: 22px;
+  font-family: "Space Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 20px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   display: inline-block;
@@ -180,13 +191,14 @@ h2 {
 /* ===== Paper Cards ===== */
 .paper-card {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  align-items: stretch;
+  gap: 0;
   border-radius: 14px;
   border: 3px solid #111;
   background: #fef3c7;
   box-shadow: 6px 6px 0 #111;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
   transition: transform 0.1s, box-shadow 0.1s;
 }
 
@@ -196,8 +208,10 @@ h2 {
 }
 
 .paper-thumb {
-  flex: 0 0 180px;
-  padding: 16px;
+  flex: 0 0 190px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .paper-thumb img {
@@ -211,36 +225,52 @@ h2 {
 
 .paper-body {
   flex: 1;
-  padding: 16px 20px 16px 0;
+  padding: 20px 24px 20px 8px;
 }
 
 .papertitle {
-  font-size: 14px;
+  font-family: "Space Mono", "Courier New", monospace;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
 }
 
 .paper-meta {
-  font-size: 13px;
-  margin-top: 4px;
-  opacity: 0.85;
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 1.6;
+  opacity: 0.8;
 }
 
 .paper-body p {
-  margin: 8px 0 0;
-  font-size: 13px;
-  line-height: 1.5;
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  line-height: 1.65;
 }
 
 /* ===== Footer ===== */
 .footer-note {
-  margin-top: 28px;
-  padding-top: 12px;
+  margin-top: 32px;
+  padding-top: 14px;
   border-top: 2px dashed #111;
   font-size: 12px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.6;
+}
+
+/* ===== Visitor Map ===== */
+.visitor-map {
+  max-width: 960px;
+  margin: 48px auto 24px;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.visitor-map:hover {
+  opacity: 0.85;
 }
 
 /* ===== Highlight ===== */
@@ -257,12 +287,13 @@ span.highlight {
   }
 
   .page-shell {
-    padding: 16px;
+    padding: 18px;
   }
 
   .hero-row {
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
 
   .hero-photo {
@@ -272,7 +303,7 @@ span.highlight {
   }
 
   .name {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .paper-card {
@@ -286,6 +317,6 @@ span.highlight {
   }
 
   .paper-body {
-    padding: 0 16px 16px;
+    padding: 12px 16px 16px;
   }
 }
