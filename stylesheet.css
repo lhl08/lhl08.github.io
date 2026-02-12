@@ -14,7 +14,7 @@ em,
 b,
 strong {
   font-family: "Nunito", system-ui, -apple-system, sans-serif;
-  font-size: 14px;
+  font-size: 15.5px;
   line-height: 1.75;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .page-shell {
-  max-width: 960px;
+  max-width: 1060px;
   margin: 0 auto;
   background: #fffbf0;
   border: 3px solid #111;
@@ -156,7 +156,7 @@ a:focus {
   border-bottom: 2px solid #111;
   background: #fff;
   box-shadow: 3px 3px 0 #111;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   transition: background 0.15s, transform 0.1s, box-shadow 0.1s;
 }
@@ -208,8 +208,8 @@ h2 {
 }
 
 .paper-thumb {
-  flex: 0 0 190px;
-  padding: 18px;
+  flex: 0 0 260px;
+  padding: 20px;
   display: flex;
   align-items: center;
 }
@@ -230,7 +230,7 @@ h2 {
 
 .papertitle {
   font-family: "Nunito", system-ui, -apple-system, sans-serif;
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -238,7 +238,7 @@ h2 {
 }
 
 .paper-meta {
-  font-size: 12px;
+  font-size: 13.5px;
   margin-top: 6px;
   line-height: 1.6;
   opacity: 0.8;
@@ -246,7 +246,7 @@ h2 {
 
 .paper-body p {
   margin: 10px 0 0;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.65;
 }
 
@@ -262,7 +262,7 @@ h2 {
 
 /* ===== Visitor Map ===== */
 .visitor-map {
-  max-width: 960px;
+  max-width: 1060px;
   margin: 48px auto 24px;
   text-align: center;
   opacity: 0.5;
