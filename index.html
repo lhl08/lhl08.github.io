@@ -8,16 +8,17 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!-- You'll likely want your own stylesheet -->
 </head>
 <body>
-<table style="width:100%;max-width:800px;margin:0 auto;"><tbody>
+<div class="page-shell">
+<table style="width:100%;margin:0 auto;"><tbody>
   <tr><td>
-    <table style="width:100%;margin:0 auto;"><tbody>
+    <table style="width:100%;margin:0 auto;" class="hero-row"><tbody>
       <tr>
-        <td style="padding:2.5%;width:63%;vertical-align:middle">
+        <td class="hero-text" style="width:63%;vertical-align:middle">
           <p class="name" style="text-align: center;">Tony Haolin Li</p> <!-- Your Name -->
           <p>I am a second-year Ph.D. student in the <a href="https://www.cs.stonybrook.edu/">Computer Science Department</a> of <a href="https://www.stonybrook.edu/">Stony Brook University</a>, where I am fortunate enough to be supervised by <a href="https://www3.cs.stonybrook.edu/~xiaojun/">Prof. Xiaojun Bi</a>, as a member of <a href="http://hail.cs.stonybrook.edu/">Human-AI Interaction Lab</a> (HAIL).</p> <!-- e.g., PhD student at University X -->
           <p>I received my B.E. in Computer Science and Technology from <a href="http://en.ustc.edu.cn">University of Science and Technology of China</a> (USTC) in 2024. During my undergraduate studies, I worked closely with <a href="https://www.cs.dartmouth.edu/~xingdong/">Prof. Xing-Dong Yang</a> and <a href="https://teyenwu.com/">Prof. Te-Yen Wu</a>.</p> <!--  e.g., I research AI and Machine Learning.  -->
           <p>I am deeply passionate about AI-driven <b>Human-Computer Interaction</b>, with a particular focus on <b>input</b> systems (text entry, automatic GUI agents, etc.) powered by <b>Large Language Models</b> and <b>Machine Learning</b>.</p>
-          <p style="text-align:center">
+          <p class="social-links" style="text-align:center">
             <a href="mailto:haolili@cs.stonybrook.edu"> Email </a> /  <!-- Your email -->
             <!-- <a href="https://lhl08.github.io">Website</a> / Link to your website (optional) -->
             <a href="https://scholar.google.com/citations?hl=en&user=FMNv2bAAAAAJ"> Scholar </a> /
@@ -28,15 +29,15 @@
             <!-- Add other links like LinkedIn, Twitter, etc. as needed -->
           </p>
         </td>
-        <td style="padding:2.5%; width:37%;">
+        <td class="hero-photo" style="width:37%;">
           <img style="width:auto; height:auto; max-width:100%;" alt="YOUR PHOTO" src="images/tony.png">
           <!-- haolili at cs dot stonybrook dot edu -->
         </td>        
       </tr>
     </tbody></table>
 
-    <table style="width:100%;margin:0 auto;"><tbody>
-      <tr><td style="padding:16px;">
+    <table style="width:100%;margin:0 auto;" class="research-section"><tbody>
+      <tr><td style="padding:16px 0 8px;">
         <h2>Research</h2>  <!--  Or Projects, Publications, etc. -->
         
       </td></tr>
@@ -45,52 +46,58 @@
     <table style="width:100%;margin:0 auto;"><tbody>
 
       <!--  Example publication entry - Duplicate and modify as needed -->
-      <tr>
-        <td style="padding:16px;width:20%;vertical-align:middle">
+      <tr class="paper-card">
+        <td class="paper-thumb" style="width:20%;vertical-align:middle">
           <img src='images/keysense.png' width="160">  <!-- Replace with your thumbnail image -->
         </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
+        <td class="paper-body" style="width:80%;vertical-align:middle">
           <!-- <a href="YOUR_PUBLICATION_LINK">  Link to the publication (e.g., arXiv) -->
             <span class="papertitle"><a href="https://lhl08.github.io">KeySense: LLM-Powered Hands-Down, Ten-Finger Typing on Commodity
 Touchscreens</a></span>  <!-- Publication title-->
           <!-- </a> -->
           <br>
-          <b>Tony Li</b>, Yan Ma, Zhuojun Li, Chun Yu, IV Ramakrishnan, Xiaojun Bi  <!-- Author List -->
-          <br>
-          <em>ACM Conference on Human Factors in Computing Systems (CHI)</em>, 2026  <!-- Venue and Year -->
+          <div class="paper-meta">
+            <b>Tony Li</b>, Yan Ma, Zhuojun Li, Chun Yu, IV Ramakrishnan, Xiaojun Bi  <!-- Author List -->
+            <br>
+            <em>ACM Conference on Human Factors in Computing Systems (CHI)</em>, 2026  <!-- Venue and Year -->
+          </div>
           <p>KeySense turns commodity touchscreens into hands-down ten-finger keyboards by distinguishing resting contacts from intentional keystrokes and decoding them with a fine-tuned large language model. It reuses physical-keyboard muscle memory, enabling fast, low-fatigue text entry without extra hardware.</p> <!-- Short summary -->
         </td>
       </tr>
       
-      <tr>
-        <td style="padding:16px;width:20%;vertical-align:middle">
+      <tr class="paper-card">
+        <td class="paper-thumb" style="width:20%;vertical-align:middle">
           <img src='images/CHI25BIT.png' width="160">  <!-- Replace with your thumbnail image -->
         </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
+        <td class="paper-body" style="width:80%;vertical-align:middle">
           <!-- <a href="YOUR_PUBLICATION_LINK">  Link to the publication (e.g., arXiv) -->
             <span class="papertitle"><a href="https://www.youtube.com/watch?v=PuxLTwyZB2c">BIT: Battery-free, IC-less and Wireless Smart Textile Interface and Sensing
               System</a></span>  <!-- Publication title-->
           <!-- </a> -->
           <br>
-          Weiye Xu, <b>Tony Li</b>, Yuntao Wang, Xing-Dong Yang, Te-Yen Wu  <!-- Author List -->
-          <br>
-          <em>ACM Conference on Human Factors in Computing Systems (CHI)</em>, 2025  <!-- Venue and Year -->
+          <div class="paper-meta">
+            Weiye Xu, <b>Tony Li</b>, Yuntao Wang, Xing-Dong Yang, Te-Yen Wu  <!-- Author List -->
+            <br>
+            <em>ACM Conference on Human Factors in Computing Systems (CHI)</em>, 2025  <!-- Venue and Year -->
+          </div>
           <p>BIT is a smart textile interface that eliminates batteries, ICs, and connectors, using multi-resonant circuits and wireless electromagnetic coupling for power and sensing. It supports resistive, capacitive, and inductive sensors, enabling seamless, sustainable, and flexible interactions in wearable technology.</p> <!-- Short summary -->
         </td>
       </tr>
 
-      <tr>
-        <td style="padding:16px;width:20%;vertical-align:middle">
+      <tr class="paper-card">
+        <td class="paper-thumb" style="width:20%;vertical-align:middle">
           <img src='images/vrdemo2.png' width="160">  <!-- Replace with your thumbnail image -->
         </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
+        <td class="paper-body" style="width:80%;vertical-align:middle">
           <!-- <a href="YOUR_PUBLICATION_LINK">  Link to the publication (e.g., arXiv) -->
             <span class="papertitle"><a href="https://www.youtube.com/watch?v=YMORsSqYLtU">LLM-powered Text Entry in Virtual Reality</a>            </span>  <!-- Publication title-->
           <!-- </a> -->
           <br>
-          Yan Ma, <b>Tony Li</b>, Zhi Li, Xiaojun Bi  <!-- Author List -->
-          <br>
-          <em>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</em>, 2025, Research Demo  <!-- Venue and Year -->
+          <div class="paper-meta">
+            Yan Ma, <b>Tony Li</b>, Zhi Li, Xiaojun Bi  <!-- Author List -->
+            <br>
+            <em>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</em>, 2025, Research Demo  <!-- Venue and Year -->
+          </div>
           <p>This demo presents an LLM-powered VR text entry system that enhances input accuracy and flexibility. Supporting raycasting and joystick-based tap and word-gesture typing, it integrates a fine-tuned FLAN-T5 decoder, achieving 93.1% accuracy on word-gesture typing and 95.4% on tap typing.</p> <!-- Short summary -->
         </td>
       </tr>
@@ -108,12 +115,13 @@ Touchscreens</a></span>  <!-- Publication title-->
   <tr>
     <td style="padding:0px">
       <br>
-      <p style="text-align:center;font-size:small;">
+      <p class="footer-note" style="text-align:center;font-size:small;">
         Thanks to <a href="https://jonbarron.info/">Jon Barren</a> for the template.
       </p>      
     </td>
   </tr>
-</tbody></table>
+    </tbody></table>
+</div>
 
 <script type="text/javascript" id="clustrmaps" 
     src="//clustrmaps.com/map_v2.js?d=9SW5xQVh3EcOCo-URVA7Xm9ONMf0LMLmUvKq3hTXvck&cl=ffffff&w=300&h=200">
